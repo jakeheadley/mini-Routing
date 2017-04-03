@@ -1,0 +1,9 @@
+<h1>Roster</h1>
+
+<div ng-repeat="player in players" class="">
+  <div class="photo-container">
+    <img ng-src="{{player.image}}" class="player-photo" alt="Player">
+  </div>
+  <h2 class="player-name">{{player.name}}</h2>
+  <a ui-sref="player" class="player-details">Player Details</a>
+</div>
